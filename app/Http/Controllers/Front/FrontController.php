@@ -51,6 +51,6 @@ class FrontController extends Controller
         $contact->subject = $request->subject;
         $contact->message = $request->message;
         $contact->save();
-        return redirect()->route('index')->with('success', 'Contact Send Successfully !!');
+        return redirect()->route('contact')->with('success', 'Contact Send Successfully !!');
     }
 }
