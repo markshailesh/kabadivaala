@@ -19,7 +19,7 @@
                             <p>Kabadivaala is a reliable and eco-friendly scrap collection service that makes waste
                                 management easy and rewarding. We collect and recycle paper, plastic, metal, and e-waste,
                                 ensuring a cleaner environment and a sustainable future.</p>
-                            <a href="about.php" class="main-btn primary mt-30">Learn More</a>
+                            <a href="{{route('about')}}" class="main-btn primary mt-30">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                             <p>Easily sell your scrap from the comfort of your home! We offer doorstep pickup for all types
                                 of recyclables, providing a hassle-free, eco-friendly way to dispose of your waste and earn
                                 some cash. Simply schedule a pickup, and we’ll handle the rest!</p>
-                            <a href="about.php" class="main-btn primary mt-30">Learn More</a>
+                            <a href="{{route('about')}}" class="main-btn primary mt-30">Learn More</a>
                         </div>
                     </div>
                 </div>
