@@ -4779,7 +4779,7 @@ i.las.la-comments {
   display: block;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
-  padding: 60px 60px 70px;
+  padding: 40px 40px 55px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial_single {
@@ -7010,8 +7010,8 @@ ul.contact-list li i {
 
 .contact-info a {
   color: #097e51;
-  font-size: 15px;
-  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .contact-page-google-map {
@@ -7456,13 +7456,18 @@ ul.contact-list li i {
     transform: translate(100%, 0);
   }
 }
-/*
 
-
-
-
-
-
-
-
- */
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  left: 5px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.whatsapp img {
+  width: 50px;
+  height: 50px;
+}

@@ -7,7 +7,7 @@
                             <img src="{{ asset('frontend/assets/img/logo.png')}}" alt="kabadivaala-logo" >
                         </div>
                         <div class="contact-info">
-                            <p>Lorem ipsum dolor</p>
+                            <p>Kabadivaala is an online platform based in Varanasi, Uttar Pradesh, dedicated to facilitating the sale and recycling of various scrap materials. Their services are designed to make waste management convenient and environmentally friendly for residents.</p>
                         </div>
 
                     </div>
@@ -18,10 +18,10 @@
                                 <h6>Company</h6>
                                 <ul>
                                     <li>
-                                        <a href="about.php">About Us</a>
-                                        <a href="scrap-rate.php">Scrap Rate</a>
-                                        <a href="faq.php">FAQ</a>
-                                        <a href="contact.php">Contact</a>
+                                        <a href="{{route('about')}}">About Us</a>
+                                        <a href="{{route('scrap_rate')}}">Scrap Rate</a>
+                                        <a href="#">FAQ</a>
+                                        <a href="{{route('contact')}}">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -29,11 +29,11 @@
                                 <h6>Services</h6>
                                 <ul>
                                     <li>
-                                        <a href="#">Paper Recycling</a>
-                                        <a href="#">Plastic Recycling</a>
-                                        <a href="#">Glass Recycling</a>
-                                        <a href="#">Metal Recycling</a>
-                                        <a href="#">Electronics Recycling</a>
+                                        <a href="{{route('services')}}">Metal Scrap</a>
+                                        <a href="{{route('services')}}">Paper and Cardboard</a>
+                                        <a href="{{route('services')}}">Plastic Scrap</a>
+                                        <a href="{{route('services')}}">Electronic Scrap</a>
+                                        <a href="{{route('services')}}">Automotive Scrap</a>
                                     </li>
                                 </ul>
                             </div>
@@ -45,8 +45,8 @@
                         <div class="subscribe-form">
                             <h6>Contact Us</h6>
                             <div class="contact-info">
-                                <p><b>Phone:</b> +91-9454528015</p>
-                                <p><b>E-mail:</b> kabadivaala@gmail.com</p>
+                                <p><b>Phone:</b> <a href="tel:9454528015" class="text-white">+91-9454528015</a></p>
+                                <p><b>E-mail:</b> <a href="mailto:kabadivaala1@gmail.com"  class="text-white">kabadivaala1@gmail.com</a></p>
                                 <p><b>Location:</b> Varanasi, Uttar Pradesh, India</p>
                                 <p><b>Opening Hour:</b> 08.00 AM-09.00 PM</p>
                         </div>
@@ -77,3 +77,11 @@
             </div>
         </div>
     </div>
+
+    <!-- Start Whatsapp -->
+        <div class="whatsapp">
+            <a href="https://wa.me/+919454528015" target="_blank">
+            <img src="{{ asset('frontend/assets/img/whatsapp.png')}}" alt="whatsapp"> 
+            </a>
+        </div>
+    <!-- End Whatsapp -->

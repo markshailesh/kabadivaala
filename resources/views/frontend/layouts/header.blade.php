@@ -3,9 +3,9 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-xs-12">
                     <div class="contact-info">
-                        <i class="las la-phone"></i> +91-9454528015
-                        <i class="las la-envelope"></i> kabadivaala@gmail.com
-                        <i class="las la-map-marker"></i> Varanasi, Uttar Pradesh, India.
+                       <a href="tel:9454528015"> <i class="las la-phone"></i> +91-9454528015</a>
+                       <a href="mailto:kabadivaala1@gmail.com"> <i class="las la-envelope"></i> kabadivaala1@gmail.com</a>
+                       <a href="#"> <i class="las la-map-marker"></i> Varanasi, Uttar Pradesh, India. </a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-xs-12 text-end">

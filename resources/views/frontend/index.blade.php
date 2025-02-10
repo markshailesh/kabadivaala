@@ -625,15 +625,14 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </p>
-                            <p class="testimonial_text">I like this service. Some improvments, Make it availavle under alt
-                                insert generate Make it easier to choose style.</p>
+                            <p class="testimonial_text">Kabadivaala has truly revolutionized the way we dispose of scrap! Their doorstep pickup service is incredibly convenient, and the entire process is seamless. The staff is professional, punctual, and ensures proper digital weighing, so there's complete transparency. I appreciate their initiative to promote recycling and sustainability.</p>
                             <div class="testimonial_author">
                                 <div class="testimonial_author-img">
-                                    <img src="{{ asset('frontend/assets/img/testimonial/testi-author-1.jpg') }}"
+                                    <img src="{{ asset('frontend/assets/img/user.png') }}"
                                         alt="">
                                 </div>
                                 <div class="testimonial_author-details">
-                                    <h4 class="testimonial_author-name">Pat Cummins</h4>
+                                    <h4 class="testimonial_author-name">Naveen Gupta</h4>
                                     <p class="testimonial_author-title">Customer</p>
                                 </div>
                             </div>
@@ -650,15 +649,14 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </p>
-                            <p class="testimonial_text">I like this service. Some improvments, Make it availavle under alt
-                                insert generate Make it easier to choose style.</p>
+                            <p class="testimonial_text">I had an amazing experience with Kabadivaala! Their doorstep pickup service is incredibly convenient, and scheduling a pickup was super easy through their website. The team arrived on time, used digital weighing scales for accuracy, and provided instant payment.</p>
                             <div class="testimonial_author">
                                 <div class="testimonial_author-img">
-                                    <img src="{{ asset('frontend/assets/img/testimonial/testi-author-2.jpg') }}"
+                                    <img src="{{ asset('frontend/assets/img/user.png') }}"
                                         alt="">
                                 </div>
                                 <div class="testimonial_author-details">
-                                    <h4 class="testimonial_author-name">Mark Wood</h4>
+                                    <h4 class="testimonial_author-name">Ashutosh Mishra</h4>
                                     <p class="testimonial_author-title">Customer</p>
                                 </div>
                             </div>
@@ -675,15 +673,14 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </p>
-                            <p class="testimonial_text">I like this service. Some improvments, Make it availavle under alt
-                                insert generate Make it easier to choose style.</p>
+                            <p class="testimonial_text">Absolutely fantastic service! Kabadivaala has made recycling so easy and hassle-free. I was able to schedule a pickup from my home with just a few clicks on their website. The team arrived on time and was very professional. They weighed the scrap right in front of me using a digital scale, ensuring everything was fair and transparent. I was paid instantly via mobile wallet, which was super convenient.</p>
                             <div class="testimonial_author">
                                 <div class="testimonial_author-img">
-                                    <img src="{{ asset('frontend/assets/img/testimonial/testi-author-3.jpg') }}"
+                                    <img src="{{ asset('frontend/assets/img/user.png') }}"
                                         alt="">
                                 </div>
                                 <div class="testimonial_author-details">
-                                    <h4 class="testimonial_author-name">Molina Natasha</h4>
+                                    <h4 class="testimonial_author-name">Neelesh Krishna</h4>
                                     <p class="testimonial_author-title">Customer</p>
                                 </div>
                             </div>
