@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="logo">
-                            <img src="{{ asset('frontend/assets/img/logo.png')}}" alt="kabadivaala-logo" >
+                            <img src="{{ asset('frontend/assets/img/logo.png')}}" alt="kabadivaala-logo" style="height:85px;">
                         </div>
                         <div class="contact-info">
                             <p>Kabadivaala is an online platform based in Varanasi, Uttar Pradesh, dedicated to facilitating the sale and recycling of various scrap materials. Their services are designed to make waste management convenient and environmentally friendly for residents.</p>
