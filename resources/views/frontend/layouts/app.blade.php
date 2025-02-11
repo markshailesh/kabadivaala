@@ -7,8 +7,8 @@
     <!--Favicon-->
     <link rel="icon" href="{{ asset('frontend/assets/img/favicon.png')}}" type="image/jpg" >
     <title>Kabadi Vaala | Sell scrap online</title>
-    <meta name="keywords" content="kabadivaala, Scrap, Online kabadivaala, kabadivaala in varanasi, Scrap selling, kabadi, kabadiwala near me">
-    <meta name="description" content="Turn your trash into cash with kabadivaala, your trusted online kabadivaala in Varanasi. We buy scraps in Varanasi, offering quick and hassle-free transactions. Sell your scrap today!">
+    <meta name="keywords" content="kabadivaala, scrap, sell scrap online, sell scrap in varanasi, online kabadiwala, kabadiwala in varanasi, scrap selling, kabadi, kabadiwala near me">
+    <meta name="description" content="Turn your trash into cash with kabadiwala, your trusted online kabadiwala in Varanasi. We buy scraps in Varanasi, offering quick and hassle-free transactions. Sell your scrap today!">
     
     @include('frontend.layouts.css')
     </head>

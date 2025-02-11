@@ -307,7 +307,7 @@
                         <br> Get Perfect Scrap Solution for Any Enquiry.
                     </h3>
                     <div class="cta-btn-2 mt-20  text-center">
-                        <a href="#" class="main-btn white">Sell Scrap</a>
+                        <a href="{{route('sell_scrap')}}" class="main-btn white">Sell Scrap</a>
                     </div>
                 </div>
             </div>
@@ -326,47 +326,46 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="choose_us_right">
-                        <div class="section-title text-left">
-                            <h6>Our Core Feature</h6>
-                            <h2>Why You Should Take Our <br> Eco-friendly Services?</h2>
+                <div class="our-features-content">
+                        <div class="section-title">
+                            <h6>Why?</h6>
+                            <h2>Why Choose KabadiVaala</h2>
                         </div>
-                        <p class="choose_us_right-text">There might be a lot of talk about reusing and recycling these days
-                            but taking discarded materials and turning them into something new is by no means a modern
-                            concept. People have been discarding and reusing materials for a very long time ago.</p>
-                        <ul class="list-unstyled choose_us_points">
-                            <li>
-                                <div class="icon">
-                                    <i class="las la-check"></i>
+                        <div class="our-features-info">
+                            <div class="our-features-info-box">
+                                <div class="our-features-icon">
+                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-1.svg" width="40" height="39" alt="Our Features Icon">
                                 </div>
-                                <div class="text">
-                                    <p>Convenient Pickup</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="las la-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Reducing Waste</p>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <div class="progress-bar-area">
-                            <div class="single-bar-item">
-                                <h4>Recycling Service</h4>
-                                <div id="bar1" class="barfiller">
-                                    <span class="tip">90%</span>
-                                    <span class="fill" data-percentage="90"></span>
+                                <div class="our-features-info-text">
+                                    <h4 class="h4-title">Fair Labour</h4>
+                                    <p>Our executives are well educated, polite, friendly and driven by the passion for customer service. They are well trained on work ethics and customer relations. Recycling is made easy, please support the cause.</p>
                                 </div>
                             </div>
-
-                            <div class="single-bar-item">
-                                <h4>Waste Management</h4>
-                                <div id="bar2" class="barfiller">
-                                    <span class="tip">70%</span>
-                                    <span class="fill" data-percentage="70"></span>
+                            <div class="our-features-info-box">
+                                <div class="our-features-icon">
+                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-2.svg" width="40" height="39" alt="Our Features Icon">
+                                </div>
+                                <div class="our-features-info-text">
+                                    <h4 class="h4-title">Accurate Weight</h4>
+                                    <p>Customers who sell their scrap at crapbin, can rely to get a trustworthy price for all the scrap materials sold. For customer satisfaction we use digital weighing machine. Running out of cash, sell your trash.</p>
+                                </div>
+                            </div>
+                            <div class="our-features-info-box">
+                                <div class="our-features-icon">
+                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-3.svg" width="40" height="36" alt="Our Features Icon">
+                                </div>
+                                <div class="our-features-info-text">
+                                    <h4 class="h4-title">Instant Payment</h4>
+                                    <p>KabadiVaala provides doorstep scrap pickup and Kabadiwala services and also gives Instant payment for their old junks Varanasi areas.</p>
+                                </div>
+                            </div>
+                            <div class="our-features-info-box">
+                                <div class="our-features-icon">
+                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-4.svg" width="40" height="31" alt="Our Features Icon">
+                                </div>
+                                <div class="our-features-info-text">
+                                    <h4 class="h4-title">Convenience</h4>
+                                    <p>We have dedicated pickup service for scrap collection in all the areas of Varanasi, so sell your e/electronic waste and scrap with us. We even have a corporate office pickup option at pre-defined regular interval to provide last stage convenience.</p>
                                 </div>
                             </div>
                         </div>
@@ -397,7 +396,7 @@
                             <div class="row">
                                 <div class="col-12 col-md-4 col-sm-6 col-lg-6">
                                     <ul class="list-unstyled contact-list">
-                                        <li><i class="las la-check"></i> Reduce Greenhouse Effect</li>
+                                        <li><i class="las la-check"></i>Reduce Greenhouse Effect</li>
                                         <li><i class="las la-check"></i>Conserv Natural Resources</li>
                                         <li><i class="las la-check"></i>Reduces Carbon Emissions</li>
                                     </ul>
