@@ -2265,7 +2265,7 @@ input.form-control {
 }
 @media (max-width: 767px) {
   .single-slide-item {
-    height: 600px;
+    height: 450px;
   }
 }
 .single-slide-item h1 {
@@ -2290,15 +2290,15 @@ input.form-control {
 }
 @media (max-width: 767px) {
   .single-slide-item h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 36px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .single-slide-item h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 32px;
+    line-height: 36px;
   }
 }
 .single-slide-item p {
@@ -5033,7 +5033,7 @@ i.las.la-comments {
 }
 
 .breadcroumb-area {
-  height: 200px;
+  height: 125px;
   background-size: cover;
   background-position: center;
   background-color: #ddd;
@@ -5062,7 +5062,7 @@ i.las.la-comments {
 }
 @media (max-width: 767px) {
   .breadcroumb-area .breadcroumb-title h1 {
-    font-size: 50px;
+    font-size: 36px;
   }
 }
 .breadcroumb-area h6 {
@@ -7246,8 +7246,8 @@ ul.contact-list li i {
 
 .contact-headline h3 {
   color: #fff;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .contact-single-info i {

@@ -22,23 +22,27 @@
     <div class="about-area section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+            <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="about-content-wrap">
-                        <div class="section-title">
-                            <p>Waste Disposal & Recycling Services in Commercial & Domestic</p>
-                            <h2>The Pioneers In The Recycling Service!</h2>
+                        <div class="section-title mb-0">
+                            <h6>About Us</h6>
+                            <h2>We are scrap and kabad buyer in Varanasi</h2>
                         </div>
                         <div class="about-content">
                             <div class="row">
-                                <div class="col-12 col-lg-12">
+                                <div class="col-lg-12 col-xl-12">
                                     <div class="about-content-left">
-                                        <p class="highlight">We are providing the effectively waste disposal & recycling service
-                                             with our modern technologies, we serve
-                                            commonly, client first priority.</p>
-
-                                        <p>How can better environment for future universe to recycling waste disposal? We believe the most effective strategy is to stop waste from entering the ocean in the first place.  
-                                        </p>
-                                        <div class="row mt-20">
+                                        <p>KabadiVaala is a online platform by which people can sell their scraps by filling
+                                            simple schedule pickup form hassle free. We are Varanasi Base Company and Our
+                                            Services are avialable in Varanasi.</p>
+                                        <p>You can do booking a pick up call through our website at your convenient date and
+                                            time slot. Our Scrap Picker Guy will come on assigned date at your doorstep free
+                                            of cost and buy all scrap available at a pre-defined rate list available on our
+                                            website.</p>
+                                        <p>All weighment will be done through digital weighing scale. Payments will be made
+                                            to you through mobile wallet or cash. You have also the option to donate the
+                                            scrap. So, you can sell all your scrap, hassle free.</p>
+                                        <div class="row mt-30">
                                             <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                                                 <div class="featured-area">
                                                     <div class="featured-icon">
@@ -46,7 +50,7 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h5>Ontime at <br>Services</h5>
+                                                            <h5>Ontime Scheduled</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -58,7 +62,7 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h5>24/7 <br>Services</h5>
+                                                            <h5>24/7 Services</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -70,7 +74,7 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h5>Affordable <br>Cost</h5>
+                                                            <h5>Affordable Cost</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -90,7 +94,7 @@
                                 <img src="{{ asset('frontend/assets/img/icon/customer-service.png')}}" alt="">
                             </div>
                             <div class="counter-number">
-                                <span class="counting" data-counterup-nums="154">4754</span>
+                                <span class="counting" data-counterup-nums="10">500</span>
                             </div>
                             <h6>Happy Customers</h6>
                         </div>
@@ -103,198 +107,111 @@
 
     <!--Service Area-->
 
-    <div class="service-area sky-bg section-padding">
-        <div class="container">
-            <div class="section-title">
-                <h6>What we’re doing</h6>
-                <h2>Services We Offer</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <!--Services Single-->
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="{{ asset('frontend/assets/img/service/service_1.jpg')}}" alt="">
-                            </div>
-                            <div class="services-two_icon">
-                                <img src="{{ asset('frontend/assets/img/icon/paper.png')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="paper_recycle.php">Capboard/Paper Recycling</a>
-                            </h3>
-                            <p class="services-two_text">Lorem ipsum dolor sit donec amet tristique ante vel sem
-                                dictum is rhoncus elit sed.</p>
-                            <div class="services-two_bottom">
-                                <a href="paper_recycle.php" class="services-one_btn">Read More</a>
-                                <a href="paper_recycle.php" class="services-one_arrow"><span class="icon-right-arrow"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                    <!--Services Two Single-->
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="{{ asset('frontend/assets/img/service/service_2.jpg')}}" alt="">
-                            </div>
-                            <div class="services-two_icon">
-                                <img src="{{ asset('frontend/assets/img/icon/plastic.png')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="plastic_recycle-2.php">Plastic Recycling</a>
-                            </h3>
-                            <p class="services-two_text">Lorem ipsum dolor sit donec amet tristique ante vel sem
-                                dictum is rhoncus elit sed.</p>
-                            <div class="services-two_bottom">
-                                <a href="plastic_recycle.php" class="services-one_btn">Read More</a>
-                                <a href="plastic_recycle.php" class="services-one_arrow"><span class="icon-right-arrow"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                    <!--Services Two Single-->
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="{{ asset('frontend/assets/img/service/service_3.jpg')}}" alt="">
-                            </div>
-                            <div class="services-two_icon">
-                                <img src="{{ asset('frontend/assets/img/icon/glass.png')}}" alt="">
-                            </div>
-                        </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="glass_recycle-2.php">Glass Recycling</a></h3>
-                            <p class="services-two_text">Lorem ipsum dolor sit donec amet tristique ante vel sem
-                                dictum is rhoncus elit sed.</p>
-                            <div class="services-two_bottom">
-                                <a href="glass_recycle.php" class="services-one_btn">Read More</a>
-                                <a href="glass_recycle.php" class="services-one_arrow"><span class="icon-right-arrow"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Choose Us Area  -->
-
-    <div class="choose_us section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-12">
-                    <div class="choose_us_left">
-                        <div class="choose_us_img">
-                            <img src="{{ asset('frontend/assets/img/choose_us.jpg')}}" alt="">                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-12">
-                    <div class="choose_us_right">
-                        <div class="section-title text-left">
-                            <h6>Our Core Feature</h6>
-                            <h2>Why You Should Take Our Services?</h2>
-                        </div>
-                        <p class="choose_us_right-text">There might be a lot of talk about reusing and recycling these days but taking discarded materials and turning them into something new is by no means a modern concept. People have been discarding and reusing materials for a very long time ago.</p>
-                        <ul class="list-unstyled choose_us_points">
-                            <li>
-                                <div class="icon">
-                                    <i class="las la-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Convenient Pickup</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="las la-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Reducing Waste</p>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <div class="progress-bar-area">
-                            <div class="single-bar-item">
-                                <h4>Recycling Service</h4>
-                                <div id="bar1" class="barfiller">
-                                    <span class="tip">90%</span>
-                                    <span class="fill" data-percentage="90"></span>
-                                </div>
-                            </div>
-
-                            <div class="single-bar-item">
-                                <h4>Waste Management</h4>
-                                <div id="bar2" class="barfiller">
-                                    <span class="tip">70%</span>
-                                    <span class="fill" data-percentage="70"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- CTA -->
     <div class="cta-area-2 dark-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-5 col-lg-6">
-                    <h2>Let's Get Your Project Started Today!</h2>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="section-title">
+                        <h3>Let's Get Your Project Started Today!</h3>
+                    </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 offset-xl-1 col-12">                    
-                    <div class="cta-btn-2 mt-20">
-                        <a href="#" class="main-btn">Request a Pickup</a>
-                        <a href="#" class="main-btn white">Contact with Us</a>
+                <div class="col-xl-8 col-lg-8">
+                    <h3 class="text-white text-center" style="line-height: 1.65;">अगर आप किसी भी प्रकार के पुराने औद्योगिक
+                        स्क्रैप, औद्योगिक अपशिष्ट, चिकित्सा मशीनरी और स्क्रैप धातु के लिए सर्वोत्तम मूल्य चाहते हैं, तो आज
+                        ही हमसे संपर्क करें।
+                        <br> Get Perfect Scrap Solution for Any Enquiry.
+                    </h3>
+                    <div class="cta-btn-2 mt-20  text-center">
+                        <a href="{{route('sell_scrap')}}" class="main-btn white">Sell Scrap</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Testimonial Section  -->
-
-    <div class="testimonial-area sky-bg section-padding">
+    <!--Testimonial Area-->
+    <div class="testimonial-area-2 bg-white section-padding">
+        <div class="testimonial-map"
+            style="background-image: url({{ asset('frontend/assets/img/testimonial-map.png') }})"></div>
         <div class="container">
+            <div class="section-title text-center">
+                <h6>our feedback list</h6>
+                <h2>What They’re Saying</h2>
+            </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="testimonial-wrap owl-carousel">
-                        <div class="testimonial-inner">
-                            <div class="testimonial-img">
-                                <img src="{{ asset('frontend/assets/img/testimonial/1.jpg')}}" alt="" >
-                            </div>
-                            <div class="testimonial-content">
-                                <p>
-                                    “They helped lead me through the process of system
-                                    selection, site layout and place my order. They were informed and has provided guidance each step.”
-                                </p>
-                                <div class="testimonial-meta">
-                                    <h6>Pat Cummins,</h6>
-                                    <span>Delta Inc.</span>
+                <div class="col-xl-12">
+                    <div class="testimonial_carousel owl-theme owl-carousel">
+                        <!--Testimonial One Single-->
+                        <div class="testimonial_single">
+                            <p class="testimonial_rating">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </p>
+                            <p class="testimonial_text">Kabadivaala has truly revolutionized the way we dispose of scrap! Their doorstep pickup service is incredibly convenient, and the entire process is seamless. The staff is professional, punctual, and ensures proper digital weighing, so there's complete transparency. I appreciate their initiative to promote recycling and sustainability.</p>
+                            <div class="testimonial_author">
+                                <div class="testimonial_author-img">
+                                    <img src="{{ asset('frontend/assets/img/user.png') }}"
+                                        alt="">
                                 </div>
+                                <div class="testimonial_author-details">
+                                    <h4 class="testimonial_author-name">Naveen Gupta</h4>
+                                    <p class="testimonial_author-title">Customer</p>
+                                </div>
+                            </div>
+                            <div class="testimonial_quote-icon">
+                                <img src="{{ asset('frontend/assets/img/icon/quote-icon.png') }}" alt="">
                             </div>
                         </div>
-                        <div class="testimonial-inner">
-                            <div class="testimonial-img">
-                                <img src="{{ asset('frontend/assets/img/testimonial/2.jpg')}}" alt="" >
-                            </div>
-                            <div class="testimonial-content">
-                                <p>
-                                    “They helped lead me through the process of system
-                                    selection, site layout and place my order. They were informed and has provided guidance each step.”
-                                </p>
-                                <div class="testimonial-meta">
-                                    <h6>Lin Nathasha,</h6>
-                                    <span>Expoint Logistics</span>
+                        <!--Testimonial One Single-->
+                        <div class="testimonial_single">
+                            <p class="testimonial_rating">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </p>
+                            <p class="testimonial_text">I had an amazing experience with Kabadivaala! Their doorstep pickup service is incredibly convenient, and scheduling a pickup was super easy through their website. The team arrived on time, used digital weighing scales for accuracy, and provided instant payment.</p>
+                            <div class="testimonial_author">
+                                <div class="testimonial_author-img">
+                                    <img src="{{ asset('frontend/assets/img/user.png') }}"
+                                        alt="">
                                 </div>
+                                <div class="testimonial_author-details">
+                                    <h4 class="testimonial_author-name">Ashutosh Mishra</h4>
+                                    <p class="testimonial_author-title">Customer</p>
+                                </div>
+                            </div>
+                            <div class="testimonial_quote-icon">
+                                <img src="{{ asset('frontend/assets/img/icon/quote-icon.png') }}" alt="">
+                            </div>
+                        </div>
+                        <!--Testimonial One Single-->
+                        <div class="testimonial_single">
+                            <p class="testimonial_rating">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </p>
+                            <p class="testimonial_text">Absolutely fantastic service! Kabadivaala has made recycling so easy and hassle-free. I was able to schedule a pickup from my home with just a few clicks on their website. The team arrived on time and was very professional. They weighed the scrap right in front of me using a digital scale, ensuring everything was fair and transparent. I was paid instantly via mobile wallet, which was super convenient.</p>
+                            <div class="testimonial_author">
+                                <div class="testimonial_author-img">
+                                    <img src="{{ asset('frontend/assets/img/user.png') }}"
+                                        alt="">
+                                </div>
+                                <div class="testimonial_author-details">
+                                    <h4 class="testimonial_author-name">Neelesh Krishna</h4>
+                                    <p class="testimonial_author-title">Customer</p>
+                                </div>
+                            </div>
+                            <div class="testimonial_quote-icon">
+                                <img src="{{ asset('frontend/assets/img/icon/quote-icon.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -304,7 +221,7 @@
     </div>
 
     <!--Team Start-->
- 	<div class="team-section section-padding pb-60">
+ 	<!-- <div class="team-section section-padding pb-60">
         <div class="container">
             <div class="section-title text-center">
                 <h6>Professional Worker</h6>
@@ -377,6 +294,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     @endsection

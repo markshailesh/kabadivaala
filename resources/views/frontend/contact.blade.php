@@ -16,15 +16,7 @@
 		</div>
 	</div>
 
-    <!--Contact Page Google Map Start-->
- 	<div class="contact-page-google-map">
-        <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.2156438445377!2d-2.2936754376828103!3d53.4626665378156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae72e7e47f69%3A0x6c930e96df4455fe!2sOld%20Trafford!5e0!3m2!1sen!2sbd!4v1661768864802!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-
 <!-- Contact Section  -->
-
 <div class="contact-section section-padding">
     <div class="container">
         <div class="row">
@@ -56,7 +48,7 @@
                     <div class="section-title">
                         <h6>Let's Get In Touch</h6>
                         <h2>Send Us a Message</h2>
-                        <p>Please put up a topic below reated to your inquiry. If you dont find what you need fill out our contract form. </p>
+                        <p>Please put up a topic below reated to your enquiry. If you dont find what you need fill out our contract form. </p>
                     </div>
                     <div class="contact_form">
                     <form action="{{ route('contact.store') }}" method="POST" onsubmit="return checkform(this);">

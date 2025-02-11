@@ -334,7 +334,7 @@
                         <div class="our-features-info">
                             <div class="our-features-info-box">
                                 <div class="our-features-icon">
-                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-1.svg" width="40" height="39" alt="Our Features Icon">
+                                    <img src="{{ asset('frontend/assets/img/fair-labour.png')}}" width="40" height="39" alt="Our Features Icon">
                                 </div>
                                 <div class="our-features-info-text">
                                     <h4 class="h4-title">Fair Labour</h4>
@@ -343,7 +343,7 @@
                             </div>
                             <div class="our-features-info-box">
                                 <div class="our-features-icon">
-                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-2.svg" width="40" height="39" alt="Our Features Icon">
+                                    <img src="{{ asset('frontend/assets/img/fair-labour.png')}}" width="40" height="39" alt="Our Features Icon">
                                 </div>
                                 <div class="our-features-info-text">
                                     <h4 class="h4-title">Accurate Weight</h4>
@@ -352,7 +352,7 @@
                             </div>
                             <div class="our-features-info-box">
                                 <div class="our-features-icon">
-                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-3.svg" width="40" height="36" alt="Our Features Icon">
+                                    <img src="{{ asset('frontend/assets/img/fair-labour.png')}}" width="40" height="36" alt="Our Features Icon">
                                 </div>
                                 <div class="our-features-info-text">
                                     <h4 class="h4-title">Instant Payment</h4>
@@ -361,7 +361,7 @@
                             </div>
                             <div class="our-features-info-box">
                                 <div class="our-features-icon">
-                                    <img src="https://www.knowledgehubnepal.com/frontend/images/our-features-icon-4.svg" width="40" height="31" alt="Our Features Icon">
+                                    <img src="{{ asset('frontend/assets/img/fair-labour.png')}}" width="40" height="31" alt="Our Features Icon">
                                 </div>
                                 <div class="our-features-info-text">
                                     <h4 class="h4-title">Convenience</h4>
