@@ -148,12 +148,8 @@
                         <img src="{{ asset('frontend/assets/img/project/1.jpg') }}" alt="">
                     </div>
                     <div class="project-content">
-                        <div class="project-cat">
-                            <a href="#">Residential, </a>
-                            <a href="#">Commerical</a>
-                        </div>
                         <div class="project-title">
-                            <h4>Paper Recycling Services</h4>
+                            <h4>Paper Scrap</h4>
                         </div>
                         <div class="project-desc">
                             <p>Paper makes up 23 percent of municipal solid waste generated each year, more than
@@ -170,12 +166,8 @@
                         <img src="{{ asset('frontend/assets/img/project/2.jpg') }}" alt="">
                     </div>
                     <div class="project-content">
-                        <div class="project-cat">
-                            <a href="#">Commercial, </a>
-                            <a href="#">Industrial</a>
-                        </div>
                         <div class="project-title">
-                            <h4>Plastic Recycling Services</h4>
+                            <h4>Plastic Scrap</h4>
                         </div>
                         <div class="project-desc">
                             <p>More than 35 million tons of plastics were generated in the United States and
@@ -192,12 +184,8 @@
                         <img src="{{ asset('frontend/assets/img/project/3.jpg') }}" alt="">
                     </div>
                     <div class="project-content">
-                        <div class="project-cat">
-                            <a href="#">Industrial, </a>
-                            <a href="#">Commercial</a>
-                        </div>
                         <div class="project-title">
-                            <h4>Metal Recycling Services</h4>
+                            <h4>Metal Scrap</h4>
                         </div>
                         <div class="project-desc">
                             <p>Their primary purpose is to ship normal packages in basically the same ways that the
@@ -214,12 +202,8 @@
                         <img src="{{ asset('frontend/assets/img/project/4.jpg') }}" alt="">
                     </div>
                     <div class="project-content">
-                        <div class="project-cat">
-                            <a href="#">Residential, </a>
-                            <a href="#">Industrial</a>
-                        </div>
                         <div class="project-title">
-                            <h4>Aluminium Recycling Services</h4>
+                            <h4>Aluminium Scrap</h4>
                         </div>
                         <div class="project-desc">
                             <p>In 2018, 3.9 million tons of aluminum municipal waste was generated. The total
