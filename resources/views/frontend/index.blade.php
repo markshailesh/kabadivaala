@@ -7,7 +7,6 @@
             <div class="image-layer" style="background-image: url({{ asset('frontend/assets/img/slider/slide-1.jpg') }});">
                 <div class="overlay"></div>
             </div>
-
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-8 col-lg-8 wow fadeInUp animated" data-wow-delay=".2s">
@@ -30,7 +29,6 @@
             <div class="image-layer" style="background-image: url({{ asset('frontend/assets/img/slider/slide-2.jpg') }});">
                 <div class="overlay"></div>
             </div>
-
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-9 col-lg-9 wow fadeInUp animated" data-wow-delay=".2s">
@@ -82,7 +80,7 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h5>Ontime <br>Scheduled</h5>
+                                                            <h5>Ontime Scheduled</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -94,7 +92,7 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h5>24/7 <br>Services</h5>
+                                                            <h5>24/7 Services</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -106,7 +104,7 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h5>Affordable <br>Cost</h5>
+                                                            <h5>Affordable Cost</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -126,7 +124,7 @@
                                 <img src="{{ asset('frontend/assets/img/icon/customer-service.png') }}" alt="">
                             </div>
                             <div class="counter-number">
-                                <span class="counting" data-counterup-nums="154">4754</span>
+                                <span class="counting" data-counterup-nums="10">500</span>
                             </div>
                             <h6>Happy Customers</h6>
                         </div>
@@ -137,94 +135,100 @@
         </div>
     </div>
 
-    <!--Service Area-->
-    <div class="service-area sky-bg section-padding pb-50">
+        <!-- Service Section  -->
+        <div class="project-area sky-bg section-padding">
         <div class="container">
             <div class="section-title">
                 <h6>What we’re doing</h6>
                 <h2>Services We Offer</h2>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms"
-                    style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <!--Services Single-->
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="{{ asset('frontend/assets/img/service/service_1.jpg') }}" alt="">
-                            </div>
-                            <div class="services-two_icon">
-                                <img src="{{ asset('frontend/assets/img/icon/paper.png') }}" alt="">
-                            </div>
+            <div class="project-wrap owl-carousel">
+                <div class="project-single">
+                    <div class="project-img">
+                        <img src="{{ asset('frontend/assets/img/project/1.jpg') }}" alt="">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-cat">
+                            <a href="#">Residential, </a>
+                            <a href="#">Commerical</a>
                         </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="paper_recycle.php">Capboard/Paper Recycling</a>
-                            </h3>
-                            <p class="services-two_text">Lorem ipsum dolor sit donec amet tristique ante vel sem
-                                dictum is rhoncus elit sed.</p>
-                            <div class="services-two_bottom">
-                                <a href="paper_recycle.php" class="services-one_btn">Read More</a>
-                                <a href="paper_recycle.php" class="services-one_arrow"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
+                        <div class="project-title">
+                            <h4>Paper Recycling Services</h4>
+                        </div>
+                        <div class="project-desc">
+                            <p>Paper makes up 23 percent of municipal solid waste generated each year, more than
+                                any other material.</p>
+                        </div>
+                        <div class="project-more">
+                            <a class="main-btn border-btn" href="#">explore more <i
+                                    class="las la-arrow-alt-circle-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms"
-                    style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                    <!--Services Two Single-->
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="{{ asset('frontend/assets/img/service/service_2.jpg') }}" alt="">
-                            </div>
-                            <div class="services-two_icon">
-                                <img src="{{ asset('frontend/assets/img/icon/plastic.png') }}" alt="">
-                            </div>
+                <div class="project-single">
+                    <div class="project-img">
+                        <img src="{{ asset('frontend/assets/img/project/2.jpg') }}" alt="">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-cat">
+                            <a href="#">Commercial, </a>
+                            <a href="#">Industrial</a>
                         </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="plastic_recycle.php">Plastic Recycling</a>
-                            </h3>
-                            <p class="services-two_text">Lorem ipsum dolor sit donec amet tristique ante vel sem
-                                dictum is rhoncus elit sed.</p>
-                            <div class="services-two_bottom">
-                                <a href="plastic_recycle.php" class="services-one_btn">Read More</a>
-                                <a href="plastic_recycle.php" class="services-one_arrow"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
+                        <div class="project-title">
+                            <h4>Plastic Recycling Services</h4>
+                        </div>
+                        <div class="project-desc">
+                            <p>More than 35 million tons of plastics were generated in the United States and
+                                only 8.7 percent was recycled. </p>
+                        </div>
+                        <div class="project-more">
+                            <a class="main-btn border-btn" href="#">explore more <i
+                                    class="las la-arrow-alt-circle-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms"
-                    style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                    <!--Services Two Single-->
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="{{ asset('frontend/assets/img/service/service_3.jpg') }}" alt="">
-                            </div>
-                            <div class="services-two_icon">
-                                <img src="{{ asset('frontend/assets/img/icon/glass.png') }}" alt="">
-                            </div>
+                <div class="project-single">
+                    <div class="project-img">
+                        <img src="{{ asset('frontend/assets/img/project/3.jpg') }}" alt="">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-cat">
+                            <a href="#">Industrial, </a>
+                            <a href="#">Commercial</a>
                         </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="glass_recycle.php">Glass Recycling</a></h3>
-                            <p class="services-two_text">Lorem ipsum dolor sit donec amet tristique ante vel sem
-                                dictum is rhoncus elit sed.</p>
-                            <div class="services-two_bottom">
-                                <a href="glass_recycle.php" class="services-one_btn">Read More</a>
-                                <a href="glass_recycle.php" class="services-one_arrow"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
+                        <div class="project-title">
+                            <h4>Metal Recycling Services</h4>
+                        </div>
+                        <div class="project-desc">
+                            <p>Their primary purpose is to ship normal packages in basically the same ways that the
+                                postal service does.</p>
+                        </div>
+                        <div class="project-more">
+                            <a class="main-btn border-btn" href="#">explore more <i
+                                    class="las la-arrow-alt-circle-right"></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-7 text-center">
-                    <div class="service-note">
-                        <p>We Provide Various Category Recycling Services. <a href="services.php">Explore Our
-                                Services</a></p>
+                <div class="project-single">
+                    <div class="project-img">
+                        <img src="{{ asset('frontend/assets/img/project/4.jpg') }}" alt="">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-cat">
+                            <a href="#">Residential, </a>
+                            <a href="#">Industrial</a>
+                        </div>
+                        <div class="project-title">
+                            <h4>Aluminium Recycling Services</h4>
+                        </div>
+                        <div class="project-desc">
+                            <p>In 2018, 3.9 million tons of aluminum municipal waste was generated. The total
+                                recycling rate was 34.9 percent. </p>
+                        </div>
+                        <div class="project-more">
+                            <a class="main-btn border-btn" href="#">explore more <i
+                                    class="las la-arrow-alt-circle-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -316,114 +320,10 @@
                     <h3 class="text-white text-center" style="line-height: 1.65;">अगर आप किसी भी प्रकार के पुराने औद्योगिक
                         स्क्रैप, औद्योगिक अपशिष्ट, चिकित्सा मशीनरी और स्क्रैप धातु के लिए सर्वोत्तम मूल्य चाहते हैं, तो आज
                         ही हमसे संपर्क करें।
-                        <br> Get Perfect Scrap Solution for Any Inquiry.
+                        <br> Get Perfect Scrap Solution for Any Enquiry.
                     </h3>
                     <div class="cta-btn-2 mt-20  text-center">
-                        <a href="contact.html" class="main-btn white">Sell Scrap</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Project Section  -->
-    <div class="project-area gray-bg section-padding">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-7">
-                    <div class="section-title">
-                        <h6>Revolution Ongoing Development</h6>
-                        <h2>Recenty Recycling Solutions And Waste Management</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="project-wrap owl-carousel">
-                <div class="project-single">
-                    <div class="project-img">
-                        <img src="{{ asset('frontend/assets/img/project/1.jpg') }}" alt="">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-cat">
-                            <a href="project-details.php">Residential, </a>
-                            <a href="project-details.php">Commerical</a>
-                        </div>
-                        <div class="project-title">
-                            <h4>Paper Recycling Services</h4>
-                        </div>
-                        <div class="project-desc">
-                            <p>Paper makes up 23 percent of municipal solid waste generated each year, more than
-                                any other material.</p>
-                        </div>
-                        <div class="project-more">
-                            <a class="main-btn border-btn" href="project-details.php">explore more <i
-                                    class="las la-arrow-alt-circle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-single">
-                    <div class="project-img">
-                        <img src="{{ asset('frontend/assets/img/project/2.jpg') }}" alt="">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-cat">
-                            <a href="project-details.php">Commercial, </a>
-                            <a href="project-details.php">Industrial</a>
-                        </div>
-                        <div class="project-title">
-                            <h4>Plastic Recycling Services</h4>
-                        </div>
-                        <div class="project-desc">
-                            <p>More than 35 million tons of plastics were generated in the United States and
-                                only 8.7 percent was recycled. </p>
-                        </div>
-                        <div class="project-more">
-                            <a class="main-btn border-btn" href="project-details.php">explore more <i
-                                    class="las la-arrow-alt-circle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-single">
-                    <div class="project-img">
-                        <img src="{{ asset('frontend/assets/img/project/3.jpg') }}" alt="">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-cat">
-                            <a href="project-details.php">Industrial, </a>
-                            <a href="project-details.php">Commercial</a>
-                        </div>
-                        <div class="project-title">
-                            <h4>Metal Recycling Services</h4>
-                        </div>
-                        <div class="project-desc">
-                            <p>Their primary purpose is to ship normal packages in basically the same ways that the
-                                postal service does.</p>
-                        </div>
-                        <div class="project-more">
-                            <a class="main-btn border-btn" href="project-details.php">explore more <i
-                                    class="las la-arrow-alt-circle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-single">
-                    <div class="project-img">
-                        <img src="{{ asset('frontend/assets/img/project/4.jpg') }}" alt="">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-cat">
-                            <a href="project-details.php">Residential, </a>
-                            <a href="project-details.php">Industrial</a>
-                        </div>
-                        <div class="project-title">
-                            <h4>Aluminium Recycling Services</h4>
-                        </div>
-                        <div class="project-desc">
-                            <p>In 2018, 3.9 million tons of aluminum municipal waste was generated. The total
-                                recycling rate was 34.9 percent. </p>
-                        </div>
-                        <div class="project-more">
-                            <a class="main-btn border-btn" href="project-details.php">explore more <i
-                                    class="las la-arrow-alt-circle-right"></i></a>
-                        </div>
+                        <a href="#" class="main-btn white">Sell Scrap</a>
                     </div>
                 </div>
             </div>
@@ -527,7 +427,7 @@
                             </div>
                         </div>
                         <div class="contact-btn">
-                            <a class="main-btn white" href="contact.php">Contact Us</a>
+                            <a class="main-btn white" href="{{route('contact')}}">Contact Us</a>
                         </div>
 
                     </div>
@@ -605,7 +505,7 @@
     </div>
 
     <!--Testimonial Area-->
-    <div class="testimonial-area-2 section-padding">
+    <div class="testimonial-area-2 bg-white section-padding">
         <div class="testimonial-map"
             style="background-image: url({{ asset('frontend/assets/img/testimonial-map.png') }})"></div>
         <div class="container">
@@ -687,94 +587,6 @@
                             <div class="testimonial_quote-icon">
                                 <img src="{{ asset('frontend/assets/img/icon/quote-icon.png') }}" alt="">
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Blog Section-->
-    <div class="blog-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="section-title">
-                        <h6>Read Blog About Recycling</h6>
-                        <h2>Our Latest News & Articles</h2>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 text-end"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay=".2s">
-                    <div class="single-blog-item">
-                        <div class="blog-bg">
-                            <img src="{{ asset('frontend/assets/img/blog/1.jpg') }}" alt="">
-                            <span class="blog-date">25 Feb</span>
-                        </div>
-                        <div class="blog-content">
-                            <p class="blog-meta">
-                                <i class="las la-user-circle"></i>Admin
-                                <i class="las la-comments"></i>13
-                            </p>
-                            <h5>
-                                <a href="blog-details.php">Sainsbury’s Announces New In-Store Wastage Recycling
-                                    Scheme</a>
-                            </h5>
-                            <p>
-                                There are some reason Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Dolorem, facilis perferendis ipsam.
-                            </p>
-                            <a href="blog-details.php" class="read-more">Read More</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay=".4s">
-                    <div class="single-blog-item">
-                        <div class="blog-bg">
-                            <img src="{{ asset('frontend/assets/img/blog/2.jpg') }}" alt="">
-                            <span class="blog-date">07 Mar</span>
-                        </div>
-                        <div class="blog-content">
-                            <p class="blog-meta">
-                                <i class="las la-user-circle"></i>Admin
-                                <i class="las la-comments"></i>13
-                            </p>
-                            <h5>
-                                <a href="blog-details.php">Plastic Free July: Who produces the most plastic waste?
-                                </a>
-                            </h5>
-                            <p>
-                                There are some reason Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Dolorem, facilis perferendis ipsam.
-                            </p>
-                            <a href="blog-details.php" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay=".6s">
-                    <div class="single-blog-item">
-                        <div class="blog-bg">
-                            <img src="{{ asset('frontend/assets/img/blog/3.jpg') }}" alt="">
-                            <span class="blog-date">30 Apr</span>
-                        </div>
-                        <div class="blog-content">
-                            <p class="blog-meta">
-                                <i class="las la-user-circle"></i>Admin
-                                <i class="las la-comments"></i>13
-                            </p>
-                            <h5>
-                                <a href="blog-details.php">Government figures show declining recycling rates in the
-                                    UK</a>
-                            </h5>
-                            <p>
-                                There are some reason Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Dolorem, facilis perferendis ipsam.
-                            </p>
-                            <a href="blog-details.php" class="read-more">Read More</a>
                         </div>
                     </div>
                 </div>

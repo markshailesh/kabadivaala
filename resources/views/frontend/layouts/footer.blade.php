@@ -12,9 +12,8 @@
 
                     </div>
                     <div class="col-lg-5 col-md-6 com-sm-12">
-
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12">
+                            <div class="col-lg-6 col-md-6 col-6">
                                 <h6>Company</h6>
                                 <ul>
                                     <li>
@@ -25,7 +24,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12">
+                            <div class="col-lg-6 col-md-6 col-6">
                                 <h6>Services</h6>
                                 <ul>
                                     <li>

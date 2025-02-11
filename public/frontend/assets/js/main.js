@@ -216,7 +216,7 @@
 				dots: true,
 			},
 			1100: {
-				items: 3,
+				items: 4,
 				nav: false,
 				dots: true,
 			},

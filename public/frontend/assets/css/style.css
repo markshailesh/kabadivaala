@@ -1082,6 +1082,7 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  text-align: left;
 }
 
 li {
@@ -2241,7 +2242,7 @@ input.form-control {
   display: flex;
   align-items: center;
   height: 90px;
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .auto-container .icon-wrapper {
@@ -4102,7 +4103,7 @@ ul.service-list li i {
   align-items: center;
   background-color: #E5F0EC;
   padding: 13px 30px;
-  width: 230px;
+  width: 250px;
 }
 @media (max-width: 767px) {
   .choose_us_points li {
@@ -4418,6 +4419,7 @@ i.las.la-comments {
   font-size: 20px;
   color: #DFB163;
   margin: 20px 0;
+  text-align: left;
 }
 .footer-area p {
   font-size: 16px;
@@ -4505,7 +4507,7 @@ i.las.la-comments {
 }
 @media (max-width: 767px) {
   .footer-bottom p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 .footer-bottom a {
@@ -7003,9 +7005,10 @@ ul.contact-list li i {
 
 .contact-info p {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 22px;
   color: #fff;
-  margin-left: 20px;
+  margin-left: 0;
+  text-align: left;
 }
 
 .contact-info a {

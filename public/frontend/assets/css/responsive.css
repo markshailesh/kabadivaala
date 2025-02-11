@@ -164,7 +164,10 @@
 
 @media only screen and (max-width: 767px) {
     /*	responsive menu start */
-
+	.footer-up {
+		padding: 20px 0;
+	}
+	
 	.header-btn{
 		display: none;
 	}
